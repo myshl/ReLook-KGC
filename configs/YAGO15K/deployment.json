@@ -1,0 +1,15 @@
+{
+  "blend": 0.5,
+  "threshold": 0.0,
+  "tail_cap": -1.0,
+  "head_cap": -1.0,
+  "invocation": 1.0,
+  "count": 24578,
+  "mrr": 0.44886683419537776,
+  "hit1": 0.3702498169094312,
+  "hit3": 0.49357148669541867,
+  "hit10": 0.5894295711612011,
+  "mr": 534.1922044104483,
+  "stage": "visual",
+  "checkpoint": "${ARTIFACTS}/localplus/localplus/YAGO15K/visual/checkpoints/YAGO15K-epoch=007-val_mrr=0.4489.ckpt"
+}

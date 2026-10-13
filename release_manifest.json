@@ -1,0 +1,123 @@
+{
+  "release": "paper-pre-rerun-20261013",
+  "paper": {
+    "filename": "ReLook_KGC__Progressive_Reasoning_with_Visual_Refinement__2.pdf",
+    "sha256": "59303564b5f1bb1b63334632366e70c9a679e4d53babe4c95c828fbce59b2147"
+  },
+  "seed": 41504,
+  "evaluation": "All entities; both directions; train+valid+test filtering; historical torch.argsort ties",
+  "utility": "Train-filtered reciprocal rank, strict greater-than (optimistic ties)",
+  "db15k_caveat": "Historical overlapping splits: 2488 unique train-test triples; not clean held-out evidence",
+  "excluded": [
+    "20261013 common-protocol reruns",
+    "deadline runs",
+    "layerwise visual-prompt variants",
+    "early Soft Prompt ensembles"
+  ],
+  "datasets": {
+    "DB15K": {
+      "version": "db15k",
+      "deployment": {
+        "blend": 0.5,
+        "threshold": 0.0,
+        "tail_cap": -1.0,
+        "head_cap": -1.0,
+        "invocation": 1.0,
+        "count": 19806,
+        "mrr": 0.4604218543774829,
+        "hit1": 0.39745531657073613,
+        "hit3": 0.49005351913561546,
+        "hit10": 0.5830556397051398,
+        "mr": 744.4189639503181,
+        "stage": "joint"
+      },
+      "checkpoints": {
+        "final": {
+          "path": "${ARTIFACTS}/db15k/final-v1/DB15K/joint/checkpoints/DB15K-epoch=000-val_mrr=0.4560.ckpt",
+          "sha256": "e4e1dbd295f46ef9a6cbebd9acc62b82ffca331ac25ac4d3ad5da841ccda4a44",
+          "bytes": 579406197
+        },
+        "backbone": {
+          "path": "${ARTIFACTS}/db15k/final-v1/DB15K/all/checkpoints/DB15K-epoch=017-val_mrr=0.4511.ckpt",
+          "sha256": "da849d3f4c7499fac50b9fa76f8526d1b65e9c0a0662ca68b82eb3349f6d8121",
+          "bytes": 823228067
+        },
+        "csprom": {
+          "path": "${ARTIFACTS}/db15k/final-v1/DB15K/csprom/checkpoints/DB15K-epoch=017-val_mrr=0.4356.ckpt",
+          "sha256": "5de3cf49526bbda59e3b5db2af9e1467800216bb322901d91d9920dfd9bb64df",
+          "bytes": 815490971
+        }
+      }
+    },
+    "YAGO15K": {
+      "version": "localplus",
+      "deployment": {
+        "blend": 0.5,
+        "threshold": 0.0,
+        "tail_cap": -1.0,
+        "head_cap": -1.0,
+        "invocation": 1.0,
+        "count": 24578,
+        "mrr": 0.44886683419537776,
+        "hit1": 0.3702498169094312,
+        "hit3": 0.49357148669541867,
+        "hit10": 0.5894295711612011,
+        "mr": 534.1922044104483,
+        "stage": "visual",
+        "checkpoint": "${ARTIFACTS}/localplus/localplus/YAGO15K/visual/checkpoints/YAGO15K-epoch=007-val_mrr=0.4489.ckpt"
+      },
+      "checkpoints": {
+        "final": {
+          "path": "${ARTIFACTS}/localplus/localplus/YAGO15K/visual/checkpoints/YAGO15K-epoch=007-val_mrr=0.4489.ckpt",
+          "sha256": "1ff47193b52d20f9f046769ef235c410e7c8021399ab359abfdd6236426476e0",
+          "bytes": 616214815
+        },
+        "backbone": {
+          "path": "${ARTIFACTS}/localplus/localplus/YAGO15K/lar_refine/checkpoints/YAGO15K-epoch=003-val_mrr=0.4430.ckpt",
+          "sha256": "58aa79e072a60181f3af6e0391f1aac6ebf44be01cc682408d742b945292a9da",
+          "bytes": 831721955
+        },
+        "csprom": {
+          "path": "${ARTIFACTS}/db15k/final-v1/YAGO15K/csprom/checkpoints/YAGO15K-epoch=037-val_mrr=0.4336.ckpt",
+          "sha256": "554f30c6808680262306119a7302497110800c8220861d989ecc8023d0bb47d1",
+          "bytes": 821930331
+        }
+      }
+    },
+    "FB15k-237": {
+      "version": "localplus",
+      "deployment": {
+        "blend": 0.25,
+        "threshold": 0.1,
+        "tail_cap": -1.0,
+        "head_cap": -1.0,
+        "invocation": 0.8791274593669803,
+        "count": 35070,
+        "mrr": 0.37473296704942016,
+        "hit1": 0.2855146849158825,
+        "hit3": 0.40764185913886514,
+        "hit10": 0.5561163387510693,
+        "mr": 181.3162246934702,
+        "stage": "prior",
+        "checkpoint": "${ARTIFACTS}/localplus/localplus/FB15k-237/prior/checkpoints/FB15k-237-epoch=000-val_mrr=0.3743.ckpt"
+      },
+      "checkpoints": {
+        "final": {
+          "path": "${ARTIFACTS}/localplus/localplus/FB15k-237/prior/checkpoints/FB15k-237-epoch=000-val_mrr=0.3743.ckpt",
+          "sha256": "df6911bca70df4995adea553aed2dfc3d1a119bd39545bea7a12cd990c28e30e",
+          "bytes": 582709319
+        },
+        "backbone": {
+          "path": "${ARTIFACTS}/localplus/localplus/FB15k-237/lar_refine/checkpoints/FB15k-237-epoch=003-val_mrr=0.3741.ckpt",
+          "sha256": "f29921abbe130d607cf9b5097a047c675d9562f57e3f4381b1e1a22e5e7e9390",
+          "bytes": 829862499
+        },
+        "csprom": {
+          "path": "${ARTIFACTS}/db15k/final-v1/FB15k-237/csprom/checkpoints/FB15k-237-epoch=014-val_mrr=0.3648.ckpt",
+          "sha256": "21fb5d6ff011d6ce1c5d343058367120eddb6efa02accffcf846b08c3eedb380",
+          "bytes": 832088539
+        }
+      }
+    }
+  }
+}

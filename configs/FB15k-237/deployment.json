@@ -1,0 +1,15 @@
+{
+  "blend": 0.25,
+  "threshold": 0.1,
+  "tail_cap": -1.0,
+  "head_cap": -1.0,
+  "invocation": 0.8791274593669803,
+  "count": 35070,
+  "mrr": 0.37473296704942016,
+  "hit1": 0.2855146849158825,
+  "hit3": 0.40764185913886514,
+  "hit10": 0.5561163387510693,
+  "mr": 181.3162246934702,
+  "stage": "prior",
+  "checkpoint": "${ARTIFACTS}/localplus/localplus/FB15k-237/prior/checkpoints/FB15k-237-epoch=000-val_mrr=0.3743.ckpt"
+}

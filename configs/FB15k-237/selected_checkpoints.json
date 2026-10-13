@@ -1,0 +1,10 @@
+{
+  "backbone": "${ARTIFACTS}/localplus/localplus/FB15k-237/lar_refine/checkpoints/FB15k-237-epoch=003-val_mrr=0.3741.ckpt",
+  "shared": "${ARTIFACTS}/localplus/localplus/FB15k-237/shared/checkpoints/initial.ckpt",
+  "hierarchical": "${ARTIFACTS}/localplus/localplus/FB15k-237/hierarchical/checkpoints/initial.ckpt",
+  "visual": "${ARTIFACTS}/localplus/localplus/FB15k-237/visual/checkpoints/FB15k-237-epoch=000-val_mrr=0.3743.ckpt",
+  "relation": "${ARTIFACTS}/localplus/localplus/FB15k-237/relation/checkpoints/initial.ckpt",
+  "query": "${ARTIFACTS}/localplus/localplus/FB15k-237/query/checkpoints/initial.ckpt",
+  "prior": "${ARTIFACTS}/localplus/localplus/FB15k-237/prior/checkpoints/FB15k-237-epoch=000-val_mrr=0.3743.ckpt",
+  "joint": "${ARTIFACTS}/localplus/localplus/FB15k-237/joint/checkpoints/initial.ckpt"
+}

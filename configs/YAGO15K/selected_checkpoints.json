@@ -1,0 +1,10 @@
+{
+  "backbone": "${ARTIFACTS}/localplus/localplus/YAGO15K/lar_refine/checkpoints/YAGO15K-epoch=003-val_mrr=0.4430.ckpt",
+  "shared": "${ARTIFACTS}/localplus/localplus/YAGO15K/shared/checkpoints/initial.ckpt",
+  "hierarchical": "${ARTIFACTS}/localplus/localplus/YAGO15K/hierarchical/checkpoints/initial.ckpt",
+  "visual": "${ARTIFACTS}/localplus/localplus/YAGO15K/visual/checkpoints/YAGO15K-epoch=007-val_mrr=0.4489.ckpt",
+  "relation": "${ARTIFACTS}/localplus/localplus/YAGO15K/relation/checkpoints/initial.ckpt",
+  "query": "${ARTIFACTS}/localplus/localplus/YAGO15K/query/checkpoints/initial.ckpt",
+  "prior": "${ARTIFACTS}/localplus/localplus/YAGO15K/prior/checkpoints/initial.ckpt",
+  "joint": "${ARTIFACTS}/localplus/localplus/YAGO15K/joint/checkpoints/initial.ckpt"
+}

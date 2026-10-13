@@ -1,0 +1,18 @@
+ReLook-KGC builds on CSProm-KG and Hugging Face Transformers/PyTorch.
+
+The preserved CSProm reference in versions/*/reference/csprom is attributed to:
+  chenchens190009/CSProm-KG
+  commit 9a8072951beda3e5c609bd121c900b153466ca28
+  https://github.com/chenchens190009/CSProm-KG
+
+The local models/csprom_control.py documents the adaptations used to run that
+reference under the experiment suite. Its metrics are local recipe controls,
+not a claim to reproduce the original paper's tuned results.
+
+helper.py credits the fastai label-smoothing implementation. Existing source
+comments and attribution have been preserved.
+
+No new blanket license is asserted over third-party code or datasets in this
+research snapshot. Redistribution and public release require checking the
+applicable upstream terms. Dataset, image-feature and pretrained-weight assets
+are not included in this repository.

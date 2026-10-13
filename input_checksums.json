@@ -1,0 +1,41 @@
+{
+  "DB15K": {
+    "data/processed/DB15K/entity2id.txt": "7f26a4b7845b84039d1390922b259b8ea3d308d88ba837695edfa8570b720491",
+    "data/processed/DB15K/relation2id.txt": "8abd2de9fec5940ac9233f841930255f0df0f60aa9430f9759d9c8c0c0035693",
+    "data/processed/DB15K/entityid2name.txt": "03debbf28ad12be3ed922c2842c9b8fe6a04ccf06decf58bbba29c11adcc95f1",
+    "data/processed/DB15K/relationid2name.txt": "105bcfa1e1bc0942632496e07c8402928ea5e8d3656a0ff4ad596a76e3607204",
+    "data/processed/DB15K/entityid2description.txt": "2638d07592987ed0556700715eaab7a3cbf7938bc082e55c986b77e7e22bb0e2",
+    "data/processed/DB15K/train2id.txt": "afb4cbe699345d042317d70ce7aec8593c37d91fa33f8620b5131a33714409df",
+    "data/processed/DB15K/valid2id.txt": "055036ddc7b2828c4f213152a98b2359463c1e6adddbb3708d0032e04da093d8",
+    "data/processed/DB15K/test2id.txt": "bed0fa3c4792f2852e3a1b78728d867875c28c4c4523748fe57970c41a0878ce",
+    "features/DB15K_img_features.pkl": "763737b7b353405c0ccdc5480052234fc787f33842c50d9826eec67bf3b43bb2",
+    "features/DB15K_entity_embed.pkl": "c0c1a72145e78b4cfaeb443224d735e787f2dc920122002baedbe3c0fa803aa6",
+    "features/DB15K_relation_embed.pkl": "0e206992ab16fd580ebfda870528f80a5b7f1ffc4fafb82caf5c2576c31be306"
+  },
+  "YAGO15K": {
+    "data/processed/YAGO15K/entity2id.txt": "249ae9cd69f254648ac78365852271fefd5f01952fd94b4074d2f4ae50b13fec",
+    "data/processed/YAGO15K/relation2id.txt": "866248388e356b31d4bd3a38ae264e1f16ec87077d1f0247f10fcf634365659d",
+    "data/processed/YAGO15K/entityid2name.txt": "fcb98ebbc8a86a209b44d78996f15003bc08aaf03206e6f0121782f6b5b689bd",
+    "data/processed/YAGO15K/relationid2name.txt": "5239e25b2a4d58c6f9eda4d6720e53c99807b9b890247e54b731294e5993ada8",
+    "data/processed/YAGO15K/entityid2description.txt": "3216df52bd1ef80e4da88ba7ff59cbb536805df3f160d9240971feccc1d70bf5",
+    "data/processed/YAGO15K/train2id.txt": "876e7611bbe9666f470e229b2521f750cc5ae27f6d8c084da0661a8a2844b91c",
+    "data/processed/YAGO15K/valid2id.txt": "62fa466acac57020690b91bb684fe97b1584670b48159d1cca4311bbc5da5f3a",
+    "data/processed/YAGO15K/test2id.txt": "4451c66ca8e12f62cb5e91fa4ce7b463d7fd3f6f56ce9c0a8dfa396e4c56a523",
+    "features/YAGO15K_img_features.pkl": "43fe9d2e943930461959092b60544e0fefe551b813c34ef7e4e8cba27b597041",
+    "features/YAGO15K_entity_embed.pkl": "b089e0ad8a0dca380a643d4412c387b311ed05b6eb4511daa1c5ddab19dc4d3e",
+    "features/YAGO15K_relation_embed.pkl": "e9c42f750f2be6ffcf43de08b996a7708e3bfd4409897f83b80b0ac01ed6814e"
+  },
+  "FB15k-237": {
+    "data/processed/FB15k-237/entity2id.txt": "f1c7f03dbdc480465f23440d50ba03ce1ccbf2c4aa1111af08c6e6b63130b461",
+    "data/processed/FB15k-237/relation2id.txt": "7a45bc30e1797350058440d2f1913b6f0e95791189dd89d8c21982c80ae5f668",
+    "data/processed/FB15k-237/entityid2name.txt": "0a5ca43ea11f55251595624ace1ce5af488da2e9acdc466889bf8a7a2070bb31",
+    "data/processed/FB15k-237/relationid2name.txt": "bf7f6b65d65c56ecea4bec3dbdf16029a6591f3347e369407a6daba27071773a",
+    "data/processed/FB15k-237/entityid2description.txt": "fb5ace37e08e8ac6be4e9936cb8260d5520e5209fc0c8dee8c5c6105a95c21e8",
+    "data/processed/FB15k-237/train2id.txt": "e681cdc75bc8de97fd09a9d3ff7c6f638275ee4f5e4fff920dc86c02cb9ad2f9",
+    "data/processed/FB15k-237/valid2id.txt": "f07d676878a6df402ed102e83b7846fce2e306b4c2abd96842fc8974ede0745d",
+    "data/processed/FB15k-237/test2id.txt": "2eced37aafdfb597182fcd9dd442c94a8f8573bbba5f74525e456db90b1c6aa3",
+    "features/FB15K-237_img_features.pkl": "9e752dc89410e94a4c86c879630de4820414098e71d4a6536028ec6529d52856",
+    "features/FB15K-237_entity_embed.pkl": "d237e5726c92683d9f19d20a71afaf666f1d52a3d2ea79234ed3d0d16bac05ac",
+    "features/FB15K-237_relation_embed.pkl": "79fa8b23689cb3736eab7d327cade33cd0693906895a8dcaf7428d6e85362783"
+  }
+}

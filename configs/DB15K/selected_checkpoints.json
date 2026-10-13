@@ -1,0 +1,16 @@
+{
+  "all": "${ARTIFACTS}/db15k/final-v1/DB15K/all/checkpoints/DB15K-epoch=017-val_mrr=0.4511.ckpt",
+  "shared": "${ARTIFACTS}/db15k/final-v1/DB15K/shared/checkpoints/DB15K-epoch=003-val_mrr=0.4543.ckpt",
+  "hierarchical": "${ARTIFACTS}/db15k/final-v1/DB15K/hierarchical/checkpoints/DB15K-epoch=000-val_mrr=0.4545.ckpt",
+  "visual": "${ARTIFACTS}/db15k/final-v1/DB15K/visual/checkpoints/DB15K-epoch=005-val_mrr=0.4606.ckpt",
+  "relation": "${ARTIFACTS}/db15k/final-v1/DB15K/relation/checkpoints/DB15K-epoch=000-val_mrr=0.4545.ckpt",
+  "query": "${ARTIFACTS}/db15k/final-v1/DB15K/query/checkpoints/DB15K-epoch=000-val_mrr=0.4546.ckpt",
+  "prior": "${ARTIFACTS}/db15k/final-v1/DB15K/prior/checkpoints/DB15K-epoch=002-val_mrr=0.4561.ckpt",
+  "joint": "${ARTIFACTS}/db15k/final-v1/DB15K/joint/checkpoints/DB15K-epoch=000-val_mrr=0.4560.ckpt",
+  "mixed": "${ARTIFACTS}/db15k/final-v1/DB15K/mixed/checkpoints/DB15K-epoch=010-val_mrr=0.4402.ckpt",
+  "early6": "${ARTIFACTS}/db15k/final-v1/DB15K/early6/checkpoints/DB15K-epoch=019-val_mrr=0.4176.ckpt",
+  "late6": "${ARTIFACTS}/db15k/final-v1/DB15K/late6/checkpoints/DB15K-epoch=038-val_mrr=0.4557.ckpt",
+  "csprom": "${ARTIFACTS}/db15k/final-v1/DB15K/csprom/checkpoints/DB15K-epoch=017-val_mrr=0.4356.ckpt",
+  "role": "${ARTIFACTS}/db15k/final-v1/DB15K/role/checkpoints/DB15K-epoch=002-val_mrr=0.4533.ckpt",
+  "shared_extended": "${ARTIFACTS}/db15k/final-v1/DB15K/shared_extended/checkpoints/DB15K-epoch=000-val_mrr=0.4541.ckpt"
+}
